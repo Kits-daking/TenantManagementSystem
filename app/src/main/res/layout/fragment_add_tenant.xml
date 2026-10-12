@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etTenantId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tenant ID"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etTenantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tenant Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etUnitNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit Number"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etRentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rent Amount"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnSaveTenant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Tenant"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
